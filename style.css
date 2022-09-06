@@ -1,0 +1,579 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav .mainmenu {
+    display: flex;
+    list-style: none;
+
+}
+
+nav .mainmenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem;
+
+}
+
+nav .mainmenu li :hover {
+    background: rgb(255, 94, 0);
+}
+
+nav .openmenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+nav .mainmenu .closemenu,
+.icons {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+.fa-facebook:hover {
+    color: lightblue;
+}
+
+.fa-instagram:hover {
+    color: orange;
+}
+
+.fa-twitter:hover {
+    color: lightcoral;
+}
+
+.fa-github:hover {
+    color: lightgoldenrodyellow;
+}
+
+
+nav .logo {
+    margin: 6px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* hero */
+
+.hero{
+    background-image: url(./img/shanaad.webp);
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.hero .title{
+    font-size: 3rem;
+    padding: 10px;
+    color: white;
+}
+
+
+
+.hero p{
+    font-size: 1rem;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.fa-circle-play{
+    color: white;
+    font-size: 3rem;
+}
+
+.hero .title-2 {
+    padding: 10px;
+    font-size: 2rem;
+    padding-top: 20px;
+    color: white;
+}
+
+/* qeybta xigta */
+
+.container{
+    background-image: url(./img/back.webp);
+    background-position: center;
+    background-size: cover;
+}
+ .boxes{
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+
+.container .box{
+    height: 370px;
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+    background-image: url(./img/labaad.webp);
+    background-position: center;
+    background-size: cover;
+    font-size: 1rem;
+   
+}
+
+.container .box .taytal{
+    color: white;
+    padding: 10px;
+    margin-top: 17rem;
+    font-family: 'Courier New', Courier, monospace
+
+}
+.container .box p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+   
+}
+
+
+.container .box-2 {
+    height: 370px;
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+    background-image: url(./img/6aad.jpeg);
+    background-position: center;
+    background-size: cover;
+    font-size: 1rem;
+
+}
+
+.container .box-2 .taytal {
+    color: white;
+    padding: 10px;
+    margin-top: 17rem;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.container .box-2 p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+
+}
+
+
+.container .box-3 {
+    height: 370px;
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+    background-image: url(./img/7aad.webp);
+    background-position: center;
+    background-size: cover;
+    font-size: 1rem;
+
+}
+
+.container .box-3 .taytal {
+    color: white;
+    padding: 10px;
+    margin-top: 17rem;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.container .box-3 p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+
+}
+
+.seemore{
+   text-align: center;
+   padding-top: 40px;
+   padding: 20px;
+}
+.seemore a{
+color: white;
+text-decoration: none;
+}
+
+.qeybtakale{
+    height: 210px;
+    text-align: center;
+    background-image: url(./img/afaraad.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.qeybtakale .title{
+    font-size: 2rem;
+    padding: 10px;
+}
+.qeybtakale p{
+    text-align: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/* dance */
+.coontainer{
+   width:100%;
+   height: fit-content;
+    background-image: url(./img/6aad.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.boxisyaal{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.boxisyaal .boox{
+    margin: 30px;
+    text-align: center;
+}
+
+.boox p{
+    color: white;
+    font-size: 1rem;
+}
+
+.boox h5 {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.boox .par {
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+
+.boox img{
+    width: 400px;
+   
+}
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 140px;
+    justify-content: center;
+    background-image: url(./img/blue.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 6.8rem;
+    color: white;
+    gap: 60px;
+}
+footer p{
+    text-align: center;
+
+}
+
+
+
+/* media queries */
+@media (max-width: 800px) {
+    nav .mainmenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    nav .mainmenu .closemenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav .openmenu {
+        display: block;
+    }
+
+    nav .mainmenu li a:hover {
+        background: none;
+        color: rgb(255, 123, 0);
+        font-size: 1.6rem;
+    }
+
+    .icons {
+        display: inline-block;
+        padding: 12px;
+
+    }
+}
+
+
+@media (max-width: 1024px){
+
+    .qeybtakale {
+            height: fit-content;
+            text-align: center;
+           
+        }
+                .qeybtakale .title {
+                    font-size: 4rem;
+                    padding-top: 10px;
+                    color: yellow;
+                }
+    .qeybtakale p {
+      padding: 40px;
+        text-align: center;
+         font-size: 2rem;
+        }
+
+              
+                nav .mainmenu .closemenu {
+                 
+                    top: 20px;
+                    right: 30px;
+                }
+
+                footer {
+                    width: 100%;
+                    height: fit-content;
+                    
+                }
+
+  
+
+
+
+}
+
+
+@media (max-width: 812px){
+    .hero {
+         width: 100%;
+         height: fit-content;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            padding: 60px;
+        }
+
+                .hero .title {
+                    font-size: 1.3rem;
+                    padding: 14px;
+                    color: white;
+                }
+
+ .hero p {
+    font-size: 13px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.fa-regular,
+.far {
+    font-weight: 400;
+   margin-top: 10px;
+}
+
+.hero .title-2 {
+    padding: 20px;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    color: white;
+}
+
+.boxes {
+    flex-wrap: wrap;
+    width: 40px;
+    height: fit-content;
+}
+
+.seemore {
+    text-align: center;
+    padding-top: 60px;
+    padding: 20px;
+    font-size: 1.6rem;
+}
+
+.qeybtakale .title {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.qeybtakale p {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(54, 39, 39);
+}
+
+.boxisyaal .boox {
+    margin: 10px;
+    
+}
+
+.boox img {
+    width: 300px;
+}
+
+.boox .par {
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer p {
+    text-align: center;
+   
+    
+}
+
+
+
+
+}
+
+@media (max-width: 653px){
+    nav .logo {
+            padding-top: 11px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+                nav .mainmenu {
+                    height: 100%;
+                    position: absolute;
+                  
+                }
+
+ .container .box {
+    height: 170px;
+    margin-top: 20px;
+    text-align: center;
+    width: 230px;
+   
+}
+
+.container .box .taytal {
+    color: white;
+    padding: 10px;
+    margin-top: 6rem;
+    font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .box-2 {
+    height: 170px;
+        margin-top: 20px;
+        text-align: center;
+        width: 230px;
+}
+
+.container .box-2 .taytal {
+    color: white;
+        padding: 10px;
+        margin-top: 6rem;
+        font-size: 1.6rem;
+        font-family: 'Courier New', Courier, monospace;
+}
+
+.container .box-3 {
+    height: 170px;
+    margin-top: 20px;
+    text-align: center;
+    width: 230px;
+}
+
+.container .box-3 .taytal {
+    color: white;
+    padding: 10px;
+    margin-top: 6rem;
+    font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.seemore {
+    text-align: center;
+    padding-top: 60px;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+
+.qeybtakale .title {
+    font-size: 2rem;
+    
+}
+
+.qeybtakale p {
+    padding: 40px;
+    text-align: center;
+    font-size: 1rem;
+    
+}
+
+.boxisyaal .boox  img{
+    width: 220px;
+}
+
+.boox h5 {
+    color: white;
+    font-size: 1rem;
+   padding: 10px;
+}
+
+.boox .par {
+    color: white;
+    font-size: 0.6rem;
+}
+
+footer p {
+    font-size: 11px;
+}
+}
